@@ -1,9 +1,21 @@
-# Lemon
+# LUBS_openSUSE
 
-今後開発していく予定です。
+LUBS_FをベースにしてopenSUSE系のISOを作ることを専門に開発するビルドツールです。
 
-openSUSEのISOを構築するビルドツール。
+作成中ですのでしばらくお待ちください。
 
-kiwi-ngからの脱却を目的にしています。
+## LUBSとは?
 
-そのうち開発されるのでしばらくお待ちください。
+FascodeNetworkが開発しているビルドツールです。
+
+LUBSはLive Universal Build Systemの略です。
+
+詳しくはこちらをご覧ください。
+
+LUBS公式サイト(FascodeNetwork公式サイト)
+
+https://lubs.fascode.net/
+
+Github
+
+https://github.com/FascodeNet/LUBS_F

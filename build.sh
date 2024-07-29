@@ -40,13 +40,6 @@ done
 locale-gen
 update-locale LANG=ja_JP.UTF-8
 
-# Fcitx5の自動起動設定
-echo "export XMODIFIERS=@im=fcitx5" >> /etc/profile.d/fcitx5.sh
-echo "export GTK_IM_MODULE=fcitx5" >> /etc/profile.d/fcitx5.sh
-echo "export QT_IM_MODULE=fcitx5" >> /etc/profile.d/fcitx5.sh
-echo "export SDL_IM_MODULE=fcitx5" >> /etc/profile.d/fcitx5.sh
-echo "export GLFW_IM_MODULE=fcitx5" >> /etc/profile.d/fcitx5.sh
-
 # 一般ユーザーの作成とsudo権限の付与
 useradd -m -G wheel -s /bin/bash ${USERNAME}
 echo "${USERNAME}:${PASSWORD}" | chpasswd

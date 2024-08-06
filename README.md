@@ -6,6 +6,10 @@
 
 (今後はdevブランチにて開発を行います。)
 
+devブランチはこちらへ
+
+https://github.com/oredaaaaaaa/Lemon/tree/dev
+
 # Lemon
 
 kiwi-ngのビルド時のクッソ長いコマンドとビルド時の準備をすべて自動化してくれるツール。
